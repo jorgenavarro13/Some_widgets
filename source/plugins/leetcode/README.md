@@ -85,6 +85,10 @@
   </tr>
 </table>
 <!--/options-->
+### 🧩 LeetCode Stats
+
+[![LeetCode Stats](https://github.com/jorgenavarro13/Some_widgets/blob/master/metrics.plugin.leetcode.svg)](https://leetcode.com/u/JorgeNavarro/)
+
 
 ## ℹ️ Example workflow (personalized)
 
