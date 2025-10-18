@@ -17,14 +17,14 @@ inputs:
     description: |
       Enable leetcode plugin
     type: boolean
-    default: no
+    default: yes   # Cambiado a "yes" para activarlo por defecto
 
   plugin_leetcode_user:
     type: string
     description: |
       LeetCode login
-    default: .user.login
-    preset: no
+    default: JorgeNavarro   # Tu usuario de LeetCode
+    preset: yes
 
   plugin_leetcode_sections:
     description: |
@@ -35,12 +35,7 @@ inputs:
       - `recent` will display recent submissions
     type: array
     format: comma-separated
-    default: solved
-    example: solved, skills, recent
-    values:
-      - solved
-      - skills
-      - recent
+    default: solved, skills, recent   # Muestra todas las secciones
 
   plugin_leetcode_limit_skills:
     description: |
@@ -63,6 +58,6 @@ inputs:
     description: |
       Display limit (recent)
     type: number
-    default: 2
+    default: 5   # Un poco más alto para mostrar más actividad
     min: 1
     max: 15
