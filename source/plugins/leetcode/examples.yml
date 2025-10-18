@@ -1,8 +1,11 @@
-- name: LeetCode
+- name: 🧩 LeetCode Stats
   uses: lowlighter/metrics@latest
   with:
     filename: metrics.plugin.leetcode.svg
-    token: NOT_NEEDED
+    token: NOT_NEEDED   # No se requiere token para LeetCode
     base: ""
     plugin_leetcode: yes
+    plugin_leetcode_user: JorgeNavarro   # Tu usuario de LeetCode
     plugin_leetcode_sections: solved, skills, recent
+    plugin_leetcode_limit_skills: 10
+    plugin_leetcode_limit_recent: 5
